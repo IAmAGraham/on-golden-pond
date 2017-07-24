@@ -32,17 +32,17 @@ The output for each duck should be its final co-ordinates and heading.
 
 ## Input and Output
 
-# Test Input 							
-5 5 								 
-1 2 N 								
-PFPFPFPFF
+#### Test Input 							
+* 5 5 								 
+* 1 2 N 								
+* PFPFPFPFF
 
-3 3 E
-FFSFFSFSSF
+* 3 3 E
+* FFSFFSFSSF
 
-# Expected Output
-1 3 N
-5 1 E 
+#### Expected Output
+* 1 3 N
+* 5 1 E 
 
 
 ## Solution
