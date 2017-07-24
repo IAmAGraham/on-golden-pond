@@ -1,5 +1,5 @@
 ## Problem
-====================
+
 You are writing a simulation of ducks on a curiously rectangular pond. A duck’s position and 
 location is represented by a combination of x and y co-ordinates and a letter representing 
 one of the four cardinal compass points. The pond is divided up into a grid to simplify 
@@ -32,17 +32,20 @@ The output for each duck should be its final co-ordinates and heading.
 
 ## Input and Output
 
-Test Input 							Expected Output
-5 5 								1 3 N 
-1 2 N 								5 1 E 
+# Test Input 							
+5 5 								 
+1 2 N 								
 PFPFPFPFF
 
 3 3 E
 FFSFFSFSSF
 
+# Expected Output
+1 3 N
+5 1 E 
+
 
 ## Solution
-====================
 	 
 ./ongoldenpond.rb
 Takes duck input data from input file and writes the output (final positions and directions of all ducks)
@@ -53,7 +56,6 @@ to the output file.
 
 
 ## Code Description
-====================
 
 ongoldenpond.rb: 
 ruby script that gets the functionality executed by using necessary classes and files
